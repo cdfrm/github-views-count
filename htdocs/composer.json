@@ -1,0 +1,23 @@
+{
+    "name": "nosense/ghvc",
+    "autoload": {
+        "psr-4": {
+            "Ghvc\\": "src\\ghvc",
+            "App\\": "src\\app"
+        },
+        "classmap": ["src"]
+    },
+    "authors": [
+        {
+            "name": "daipham31@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "badges/poser": "^2.3",
+        "vlucas/phpdotenv": "^5.0",
+        "webmozart/assert": "^1.9"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
